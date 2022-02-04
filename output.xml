@@ -1,0 +1,708 @@
+ 
+Advanced Management Programme in Business 
+
+ 
+
+Analytics Programme 
+
+Capstone Project Charter 
+
+ 
+
+ 
+
+ 
+
+The  Capstone  Project  Charter  is  a  formal  agreement  between  the  project  sponsor  and  the 
+
+student  Team  working  on  the  Capstone  project  which  clearly  outlines  the  nature,  extent, 
+
+scope, approach and deliverables of the project.  
+
+The team is expected to deliver on all the commitments made in the project charter while the 
+
+client is urged to actively participate in the creation of the project charter which then helps 
+
+ensure that all stakeholders have consistent expectations from the project and agree on the 
+
+approach and deliverables for the project. 
+
+Once  the  project  charter  is  finalized,  no  deviations  can  be  undertaken  by  any  side  without 
+
+consultation and approval of AMPBA program office.  
+
+Each team will prepare a project charter as per the template given below. 
+ 
+Please finalize this document in consultation with the sponsor and it is mandatory to obtain their 
+sign-off on this project charter by the deadline mentioned below: 
+ 
+
+Deadline for Project Charter – 14th Jan 2022 
+ 
+It is mandatory for the team to interact with both the sponsor at least once, to discuss the 
+charter, before you finalize it. 
+ 
+It is mandatory to fill in every section of this form. 
+ 
+Please  keep  the  project  charter  approach  and  deliverables  consistent  with  the  project 
+description provided by the sponsor and his requirements for the project. 
+ 
+If  the  scope,  deliverable,  or  schedule  requirements  of  the  project  change  significantly,  a 
+‘Change Request’ should be submitted by the sponsor to the AMPBA program office. This 
+request  must  be  approved  by  us,  in  consultation  with  the  faculty,  to  protect  teams  from 
+scope creep during the project. 
+
+ 
+
+ 
+
+ 
+ 
+
+Indian School of Business,  Gachibowli ,  Hyderabad-500 032  Ph: +91 40 2300 7000 
+
+ 
+
+PROJECT DESCRIPTION 
+
+ 
+
+Name of the Client  Lotus Dew Wealth and Investment Advisors Pvt Ltd 
+
+Project Title 
+
+Stock IPO Scoring using NLP and AI 
+
+Project Team 
+
+1.  Chandra Shekhar Bhakat 
+2.  John Daniel 
+3.  Gauri Mayekar 
+4.  Shankarshan Mukherjee 
+
+Client Mentor 
+
+Mr. Abhishek Banerjee (CEO Lotus Dew) 
+
+Faculty Advisor 
+
+Dr. Vasudeva Varma (Faculty at ISB) 
+
+Project Team 
+contact Details 
+
+Chandra Shekhar Bhakat – 9030164082 
+chandrashekhar_bhakat_ampba2021s@isb.edu 
+John Daniel – 9811451592 john_daniel_ampba2021s@isb.edu 
+Gauri Mayekar – 9833930997  
+gauriyogeish_mayekar_ampba2021s@isb.edu 
+Shankarshan Mukherjee – 9700012321 
+shankarshan_mukherjee_ampba2021s@isb.edu 
+ 
+
+Project Mentor 
+Contact Details 
+
+Mobile: +91 77310 82221 
+Official Email: abhishek.banerjee@lotusdew.in 
+
+Faculty Advisor 
+Contact Details 
+
+Prof. Vasudeva Varma 
+Email: vv@iiit.ac.in 
+
+Project Description  
+
+(as per PD form) 
+
+IPO prospectus has 300-400 pages of information. For an average 
+retail investor, its very difficult to follow this information and 
+compare against peers. The project aims to make this systematic by 
+extracting the required information from IPO prospectus. In the first 
+phase of the project, you will do review of academic literature to 
+define the aspects that define post IPO performance and signify a 
+good quality issue. In the second phase you will write code to 
+automatically process IPO prospectus to extract these parameters and 
+annotate the PDF by highlighting the area that was used to extract the 
+information for tracking.  
+Overall the aim of this project is to setup basic NLP, Entity 
+Recognition and parsing technology and define analytics around peer 
+group analysis including foreign peers. For this project, we will 
+specifically focus on relatively unknown but upcoming SME IPO 
+segment. The key difference is that these are fully underwritten 
+
+ 
+
+ 
+
+instead of main board listing which is best effort raise by the 
+investment banker.  
+Factors that we would look for are promoters, related party 
+disclosures, litigations, industry dynamics, peers, past performance 
+by its bankers etc. 
+
+ 
+
+PROJECT PLANNING 
+
+Business Issue:  
+
+-  Business Context 
+
+It is difficult for an investor to read through a 300+ page IPO document to understand 
+about the company and do a peer comparison. This results in investors’ not having the 
+adequate know how of the company’s performance which in turn might result in investors 
+staying away from IPOs or making uninformed bets. 
+ 
+Further, today a lot of financial details are churned to assess the performance of a 
+company, but the non-financial data is not taken much into account. There could be some 
+critical insights in the non-financial data which could enable the investor make an 
+informed decision. 
+ 
+
+-  Area of impact 
+
+The investors will be guided towards better / more informed and unbiased decision 
+making. 
+
+ 
+
+Need Gap Situation : 
+
+Current Situation 
+
+Current Situation: 
+
+Proposed 
+Approach 
+
+Desired Situation 
+
+ 
+
+  The investor either relies on the insights / forecasts of various securities agencies to decide 
+
+on the investment Or analyses the documents him/herself and does a peer comparison.  
+  There is no module / application with the sponsor which can automatically parse an IPO 
+document and extract critical information. Also the metrics for scoring an IPO document 
+on the non financial parameters are not available. 
+
+ 
+
+Proposed Approach: 
+
+  Do an extensive secondary research to understand the critical non financial parameters that 
+
+defines success of an IPO. Identify research papers and other documents to develop this 
+understanding and come up with metrics to score a document 
+
+  Prepare train and test data set. 
+
+ 
+
+ 
+
+  Extract relevant data and perform EDA 
+  Prepare a model to score the document basis the details extracted. Test on the test data and 
+
+make it better 
+
+Desired Situation 
+
+  An IPO document fed by the user gets auto scanned and gives a score to the IPO 
+
+Proposed Project Work Flow: 
+ 
+Define metrics to be measured / monitored  
+
+  Access sources such as Google scholar, Ebsco (LMS resource) and internet in general to 
+
+identify research work done in this domain.  
+
+Interact with ISB faculties to get their insights on the topic as well 
+
+ 
+  Define a criteria in discussion with the sponsor and the guide for choosing any metric for 
+
+assessment 
+
+  Finalize the metrics iteratively 
+
+Define Success / Failure criteria of an IPO 
+
+  Secondary research for defining successful IPOs 
+  Study the performance of IPOs in the last 5 years  
+  Analyze data to identify patterns / groups 
+  Finalize the criteria 
+
+Code to extract data from documents 
+  Parse the file and read relevant data 
+  Use existing libraries and customized codes wherever needed 
+  Format and clean the data extracted for further use 
+  Feature engineering 
+
+Build and test model 
+ 
+Evaluate the model and deploy 
+ 
+
+Data Plan and Software requirement for each deliverable: 
+Data requirements :  
+
+1.  Access to Refinitiv database of more than 20000 companies. This data includes financial 
+
+results, price data and also peer data 
+
+2.  IPO prospectus from the financial sites. (200 documents will be provided by the sponsor) 
+
+ 
+Data collection: 
+Some of prospectus documents would be fetched by ourselves and some would be 
+provided by the sponsor. 
+ 
+Data security: 
+We will ensure that no part of the code will be shared publicly as well as try to use tools 
+like Google Colab so that the code is available in one place. While the hosting can be 
+anywhere we will try to store the trained model in a pickle file or an API to reuse it. 
+
+ 
+
+ 
+
+ 
+Software used: 
+We will be using Python to parse the PDF files, extract named entities and create the 
+model. 
+ 
+ 
+
+Deliverable Project Management: 
+ 
+Deliverable 
+
+Start 
+Date 
+
+20th 
+Jan 
+
+Deadline  Key Analysis 
+
+Parameters 
+
+30th Jan  Adequate 
+
+references to 
+support the 
+metrics 
+identified 
+
+Data 
+Sources 
+
+Outcome 
+expected 
+
+Team Member 
+Responsible  
+
+Chandra 
+Shekhar 
+
+Google 
+scholar, 
+Ebsco 
+
+Metrics 
+identified 
+and 
+finalized 
+with Guide 
+and 
+Sponsor 
+
+Literature review of 
+factors linked to IPO 
+performance 
+- Identify research paper 
+with high number of 
+citations 
+- Check for validity of the 
+findings of research paper 
+- Create a repository of 
+research data with 
+necessary comments 
+- In person discussions 
+with ISB faculties to 
+gather their insights 
+
+Define Success / Failure 
+criteria of an IPO 
+- Collect IPO data for the 
+last 5-7 years 
+- Analyse the performance 
+of data from the date of 
+listing to different time 
+horizons 
+- Categorize the 
+performance and define 
+the classes 
+
+Code to extract data from 
+documents 
+- Parse pdf to extract data 
+- tables, text etc 
+- Use NLP techniques to 
+scan document from the 
+table of contents 
+- Create a structure data 
+in terms of flat file 
+- Use NLP techniques to 
+score the qualitative data 
+- Perform feature 
+engineering 
+
+Build and test Module 
+- Define a scoring method 
+- Score the data basis the 
+scoring method 
+- Test against the labelled 
+data and refine iteratively 
+
+20th 
+Jan 
+
+5th Feb  Measurable 
+
+and objective 
+criteria  
+
+Shankarshan 
+
+Success 
+criteria on 
+an IPO is 
+defined 
+
+Google 
+scholar, 
+In 
+person 
+referenc
+es 
+
+20th 
+Jan 
+
+20th Feb  Efficient with 
+scope for easy 
+scale up 
+
+IPO 
+documen
+ts 
+
+John Daniel 
+
+Executable 
+code to 
+parse the 
+files 
+
+20th 
+Feb 
+
+10th 
+Mar 
+
+Accuracy 
+
+IPO 
+documen
+ts 
+
+Model with 
+expected 
+accuracy 
+
+Gauri 
+
+ 
+
+ 
+
+Deploy 
+- Test the module on real 
+time data 
+- Documentation 
+ 
+
+Progress Updates 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+10th 
+Mar 
+
+20th 
+Mar 
+
+Efficiency 
+
+- 
+
+  
+
+Gauri 
+
+The team will send update emails every week to the sponsor, faculty 
+mentor and AMPBA program office. Each update will contain a 
+brief summary of progress during the time and key insights that have 
+been revealed. Other key milestones include: 
+
+ 
+
+Project Charter Finalization 
+
+19th Jan 2022 
+
+Weekly Reports 
+
+Mid Review 
+
+Final Report Submission 
+
+Every Sunday 
+19th & 20th Feb 2022 
+3rd April 2022 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+Agreement 
+
+ 
+
+This charter and accompanying deliverables have been mutually discussed and agreed by: 
+ 
+
+Abhishek Banerjee                   
+Project Mentor Name (Sponsor) 
+ 
+ 
+
+                      
+ 
+
+ 
+
+ 
+Project Mentor Signature (Sponsor) 
+
+Chandra Shekhar Bhakat 
+Team Member #1 Name 
+ 
+
+ 
+
+ 
+
+John Daniel 
+Team Member #2 Name 
+ 
+ 
+
+Gauri Mayekar 
+Team Member #3 Name 
+ 
+
+ 
+
+Shankarshan Mukherjee 
+Team Member #4 Name 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+Team Member #1 Signature  
+
+ 
+
+Team Member #2 Signature  
+
+ 
+
+Team Member #3 Signature  
+
+ 
+
+Team Member #4 Signature  
+
+ 
+
+ 
+
+ 
+ 
+Capstone Scope Change Request 
+ 
+
+Name 
+ 
+ 
+Company 
+ 
+ 
+
+ 
+
+Email Address 
+ 
+ 
+Telephone Number(s) 
+ 
+ 
+
+Please describe the nature of the change requested: 
+ 
+ 
+ 
+ 
+ 
+ 
+Approximately how many additional hours of effort will this change require? 
+ 
+ 
+  
+What other delays, costs, or risks would this change introduce? 
+ 
+ 
+ 
+ 
+ 
+What part of remaining project work can be forgone to accommodate this change? 
+ 
+ 
+ 
+ 
+
+Please email this form to hemanth_kumar@isb.edu 
+
+Decision will be conveyed within one week. 
+
+ 
+
+ 
+
+Student Team Recommendation:  
+ 
+  
+Faculty Recommendations:  
+ 
+  
+Other Considerations:  
+ 
+  
+
+ 
+
+ 
+
+       Accepted         Rejected 
+
+ 
+
+ 
+
+  
+
+ 
+
+
